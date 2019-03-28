@@ -10,16 +10,173 @@
   </head>
 
   <body>
-    <h1>Hello World</h1>
-    <button
-      type="button"
-      class="btn btn-lg btn-danger"
-      data-toggle="popover"
-      title="Popover title"
-      data-content="Congratulations! If you can see this Bootstrap is fully functional."
-    >
-      Click Me
-    </button>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">SKATE</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Videos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Photos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Swag
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="#">Pants</a>
+                <a class="dropdown-item" href="#">Shirts</a>
+                <a class="dropdown-item" href="#">Apparel</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- end nav ********************************* -->
+      <div class="sectionLight">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="jumbotron jumbotron-fluid">
+              <div class="container">
+                <h1 class="display-4">Welcome to my World</h1>
+                <p class="lead">
+                  Total Radness since 1987
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-sm-12 col-md-6">
+            <div id="mainCarousel" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./images/board.jpg"
+                    class="d-block w-100"
+                    alt="skateboard"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./images/tipsolahraga.jpg"
+                    class="d-block w-100"
+                    alt="skateboard"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Skate for life</h5>
+                    <p>Show me some tricks!</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./images/longboard.jpg"
+                    class="d-block w-100"
+                    alt="longboard"
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#mainCarousel"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#mainCarousel"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <div class="col"></div>
+        </div>
+      </div>
+      <!-- section two ************************ -->
+      <div class="sectionDark">
+        <div class="row">
+          <div class="col-sm-12 col-md-1 offset-md-2">
+            <img src="./images/prodigy.png" alt="prodigy" class="img-fluid" />
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <div class="row">
+              <div class="col-sm-12">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Alias, ex est. Mollitia nisi eum quaerat possimus accusamus
+                  expedita. Expedita fugiat consectetur alias? Autem, porro?
+                  Velit dicta consequatur non molestias aliquid! Lorem ipsam
+                  nemo alias! Alias asperiores mollitia iusto voluptate hic
+                  sint.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 col-md-9">
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Provident neque dolorum, nobis rerum voluptatum assumenda quis
+                  illum sequi rem voluptatem quos voluptas, excepturi doloribus
+                  minima commodi quae ullam maxime veritatis?
+                </p>
+              </div>
+              <div class="col-sm-12 col-md-3">
+                <img
+                  src="./images/KFS.png"
+                  alt="Kick flip Studios Logo"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col"></div>
+        </div>
+      </div>
+    </div>
     <script src="js/index.js"></script>
   </body>
 </html>
