@@ -7031,3 +7031,18 @@ a.text-dark:hover, a.text-dark:focus {
 .sectionDark {
   background-color: #cccccc;
   padding: 2rem; }
+
+.coolStuffWrapper {
+  margin-top: 20px; }
+
+.coolStuffBtn {
+  background-color: red;
+  color: white;
+  display: block;
+  margin: auto; }
+
+.modal-title {
+  margin: auto; }
+
+.modalFormWrapper {
+  padding: 2rem; }
