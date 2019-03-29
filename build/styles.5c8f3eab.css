@@ -7046,3 +7046,12 @@ a.text-dark:hover, a.text-dark:focus {
 
 .modalFormWrapper {
   padding: 2rem; }
+
+.imgCenter {
+  display: block;
+  margin: auto; }
+
+.btnCenter {
+  display: block;
+  margin: 15px auto 20px auto;
+  width: 60%; }
