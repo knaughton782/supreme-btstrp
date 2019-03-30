@@ -7055,3 +7055,21 @@ a.text-dark:hover, a.text-dark:focus {
   display: block;
   margin: 15px auto 20px auto;
   width: 60%; }
+
+.footerImg {
+  padding: 15px; }
+
+.fa-facebook {
+  color: #3b5998;
+  margin: 10px; }
+
+.fa-google-plus-square {
+  color: #c32f;
+  margin: 10px; }
+
+.fa-instagram {
+  color: #fff;
+  margin: 10px; }
+
+.socialWrapper {
+  margin: auto; }
